@@ -7,6 +7,8 @@
 # Command :
 
 * Clone : pull the determined repository 
-* Scenario : 
+    * Scenario : users download the repository first time when they initially access to it
+
+
 
 
