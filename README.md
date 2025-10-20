@@ -1,2 +1,12 @@
-# git_practice
-Practice Commit, Clone, Push, Pull, Branch, Merge, Branch  Delete
+# Git_practice
+
+# Goal : 
+1. Practice git commands like "Clone", "Commit", "Push", "Pull", "Branch", "Merge", "Delete Branch"
+2. Clarify how to use each commands based on specific senarios
+
+# Command :
+
+* Clone : pull the determined repository 
+* Scenario : 
+
+
