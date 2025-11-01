@@ -25,7 +25,7 @@
 * Push : Sync what users have commited into cloud platform, such as GitHub, GitLab, and so on
 
 # Git Clone syntax:
-1. git clone <GitHub_website(which can be checked from code)>) <file_name>[option]:
+1. git clone <GitHub_website> <file_name>[option]:
    * It means all files in the main and the branches and the records of commitment will be downloaded.
    * We can enter git branch -a to check what branches this repository has
 
