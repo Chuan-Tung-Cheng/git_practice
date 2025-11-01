@@ -20,9 +20,17 @@
 * Commit : Complete the entire stage where users have added the files into staging area and transfer it into Git's repository of users' computers
     * Scenario : When users have confirmed all the added files in staging area is correct, users can commit what they've done, which means users have saved all the altered files into Git's repository of users' computers.
     * How it works : Device will transfer the cache that is created by adding phase into repository
-    * Remark : Once completing commit, that means users have consented all the changes to the files. Users are not recommended to go back to the last version for realtering and commiting again, which easily gets your collaborators confused with which branches are the right on to go 
-
+    * Remark : Once completing commit, that means users have consented all the changes to the files. Users are not recommended to go back to the last version for realtering and commiting again, which easily gets your collaborators confused with which branches are the right on to go
 
 * Push : Sync what users have commited into cloud platform, such as GitHub, GitLab, and so on
 
+# Git Clone syntax:
+1. git clone <GitHub_website(which can be checked from code)>) <file_name>[option]:
+   * It means all files in the main and the branches and the records of commitment will be downloaded.
+   * We can enter git branch -a to check what branches this repository has
+
+2. git clone -b <branch_name> <GitHub_website>:
+   * It means only the branch selected will be downloaded
+
+3. 
 
