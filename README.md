@@ -2,35 +2,36 @@
 
 # Goal : 
 1. Help users know git commands like "Clone", "Add", "Commit", "Push", "Pull", "Branch", "Merge", "Delete Branch"
-2. Clarify how to use each commands based on specific scenarios
+2. Clarify how to use each command based on specific scenarios
 
 # Term Explanation :
 
-* Clone : Pull the determined repository from GitHub 
+1. Clone : Pull the determined repository from GitHub 
     * Scenario : Users download the repository first time when they initially access to it
     * How it works : Device will download from GitHub (remote location) to our own computers (local location)
 
 
-* Add : Add the altered files into staging area(暫存區) once files are altered
+2. Add : Add the altered files into staging area once files are altered
     * Scenario : Users add the altered files into staging area before committing the entire stage    
     * How it works : Device will add the altered files into staging area
     * Remark : If users don't want to add the altered files, users can use "discard" to abandon the changed part
 
 
-* Commit : Complete the entire stage where users have added the files into staging area and transfer it into Git's repository of users' computers
+3. Commit : Complete the entire stage where users have added the files into staging area and transfer it into Git's repository of users' computers
     * Scenario : When users have confirmed all the added files in staging area is correct, users can commit what they've done, which means users have saved all the altered files into Git's repository of users' computers.
     * How it works : Device will transfer the cache that is created by adding phase into repository
     * Remark : Once completing commit, that means users have consented all the changes to the files. Users are not recommended to go back to the last version for realtering and commiting again, which easily gets your collaborators confused with which branches are the right on to go
 
-* Push : Sync what users have commited into cloud platform, such as GitHub, GitLab, and so on
+4. Push : Sync what users have commited into cloud platform, such as GitHub, GitLab, and so on
 
 # Git Clone syntax:
-1. git clone <GitHub_website> <file_name>[option]:
+1. git clone <GitHub_main_website> <file_name>[optional]:
    * It means all files in the main and the branches and the records of commitment will be downloaded.
-   * We can enter git branch -a to check what branches this repository has
+   * We can enter git branch -a on command line to check what branches this repository has
+   * If users want to rename the directory, they can enter the wanted name into file name
 
-2. git clone -b <branch_name> <GitHub_website>:
+2. git clone -b <branch_name> <GitHub__website>:
    * It means only the branch selected will be downloaded
 
-3. 
-
+3. git clone --depth 1 <GitHub_website>:
+   * 
