@@ -25,14 +25,14 @@
 4. Push : Sync what users have commited into cloud platform, such as GitHub, GitLab, and so on
 
 # Git Clone syntax:
-1. git clone <GitHub_repository_website> <file_name> [optional]:
+1. git clone <--depth 1 [optional]>  <GitHub_repository_website> <file_name [optional]> :
    * It means all files in the main and the branches and the records of commitment will be downloaded.
-   * We can enter git branch -a on command line to check what branches this repository has
-   * If users want to rename the directory, they can enter the wanted name into file name
+   * We can enter git branch -a on CLI to check what branches this repository has
+   * If users want to rename the directory, they can enter the expected name into file_name
+   * If users just want to do CI/CT, you can add '--depth 1' before the website, which will allow you to download the latest version without any records beforehand
 
-2. git clone -b <branch_name> --depth 1 [optional] <GitHub_repository_website>:
+2. git clone -b <branch_name> <--depth 1> [optional] <GitHub_repository_website> <file_name [optional]>:
    * It means only the selected branch and the records of the branch will be downloaded
-   * If users only want to have the latest version and there's no need to trace back, we can use the 
+   * If users want to rename the directory, they can enter the expected name into file_name
+   * If users just want to do CI/CT, you can add '--depth 1' before the website, which will allow you to download the latest version without any records beforehand
 
-3. git clone --depth 1 <GitHub_repository_website>:
-   * 
